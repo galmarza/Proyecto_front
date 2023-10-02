@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Codo a Codo</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+</head>
+<body>
+    <!-- Navbar con boostrap y personalizada con CSS -->
+  <header>
+    <nav class="navbar navbar-expand-xl navbar-dark bg-secondary fixed-top">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img src="img/codoacodo.png" alt="logo" class="logo">
+          Conf Bs As</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#conferencia">La conferencia</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#oradores">Oradores</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#lugar">El lugar y la fecha</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#registrate">Convertite en orador</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-danger" href="#">Comprar tickets</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <!-- Sección Carruserl -->
+    <a name="conferencia"></a>
+    <div class="position-relative d-md-block mt-5">
+      <div id="carouselExampleSlidesOnly" class="carousel slide min-vw-100" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="img/ba1.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="img/ba2.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="img/ba3.jpg" class="d-block w-100" alt="...">
+          </div>
+        </div>
+      </div>
+
+        <div class="texto-carousel row position-absolute" >
+          <div class="col">
+            <h1 class="carousel-titulo">Conf Bs As</h1>
+            <p class="carousel-parrafo">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi odit perspiciatis pariatur ex eum est necessitatibus, architecto ipsam similique quasi repudiandae nulla, dolorum harum maiores nesciunt cupiditate? Recusandae aspernatur architecto alias. Deleniti voluptas quo tempore voluptatem quasi modi sed nostrum ab accusamus rerum! Repellat, modi.</p>
+            <div class="d-grid gap-2 d-md-block">
+              <button class="btn btn-outline-light" type="button">Quiero ser orador</button>
+              <button class="btn btn-success" type="button">Comprar tickets</button>
+            </div>
+          </div>
+        </div>
+    </div>
+    <!-- Sección de oradores -->
+    <a name="oradores"></a>
+    <div class="container-fluid">
+      <p class="text-center m-0">CONOCE A LOS</p>
+      <h2 class="text-center">ORADORES</h2>
+      <div class="row justify-content-center">
+        <div class="col col-md-auto my-3">
+          <div class="card" style="width: 18rem;">
+            <img src="img/steve.jpg" class="card-img-top" alt="Steve Jobs">
+            <div class="card-body">
+              <span class="badge text-bg-warning">JavaScript</span>
+              <span class="badge text-bg-success">React</span>
+              <h5 class="card-title">Steve Jobs</h5>
+              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus inventore, ipsum mollitia modi reiciendis totam nihil veritatis sunt iure facilis officiis repellat illum commodi natus?</p>
+            </div>
+          </div>
+        </div>
+        <div class="col col-md-auto my-3">
+          <div class="card" style="width: 18rem;">
+            <img src="img/bill.jpg" class="card-img-top" alt="Bill Gates">
+            <div class="card-body">
+              <span class="badge text-bg-warning">JavaScript</span>
+              <span class="badge text-bg-success">React</span>
+              <h5 class="card-title">Bill Gates</h5>
+              <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quasi deleniti eaque, mollitia optio numquam molestiae? Quibusdam totam reiciendis cupiditate amet exercitationem placeat, praesentium ipsa neque?</p>
+            </div>
+          </div>
+        </div>
+        <div class="col col-md-auto my-3">
+          <div class="card" style="width: 18rem;">
+            <img src="img/ada.jpeg" class="card-img-top" alt="Ada Lovelace">
+            <div class="card-body">
+              <span class="badge text-bg-secondary">Negocios</span>
+              <span class="badge text-bg-danger">Startups</span>
+              <h5 class="card-title">Ada Lovelace</h5>
+              <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequatur pariatur expedita illo voluptas beatae voluptates mollitia nulla maiores sequi voluptatum? Illum dolores repudiandae doloremque tenetur.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- separador -->
+    <div class="container-fluid">
+      <br><br>
+    </div>
+    <!-- Sección Buenos Aires -->
+    <a name="lugar"></a>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col">
+          <img src="img/honolulu.jpg" class="img-fluid imagen" alt="Buenos Aires">
+        </div>
+        <div class="col bg-secondary">
+          <div class="text-white text-start pt-3 mx-2 imagen">
+              <h1 class="">Bs As - Octubre</h1>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi odit perspiciatis pariatur ex eum est necessitatibus, architecto ipsam similique quasi repudiandae nulla, dolorum harum maiores nesciunt cupiditate? Recusandae aspernatur architecto alias. Deleniti voluptas quo tempore voluptatem quasi modi sed nostrum ab accusamus rerum! Repellat, modi.</p>
+              <div class="d-grid gap-2 d-md-block">
+                <button class="btn btn-outline-light mb-4" type="button">Conocer mas</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- separador -->
+    <div class="container-fluid">
+      <br><br>
+    </div>
+    <!-- Sección formulario -->
+    <a name="registrate"></a>
+    <div class="container">
+      <p class="text-center m-0">CONVIÉRTETE EN UN</p>
+      <h2 class="text-center">ORADOR</h2>
+      <p class="text-center">Anótate como orador para dar una charla ignite. Cuéntanos de qué quieres hablar!</p>
+      <form action="">
+        <div class="row justify-content-md-center">
+          <div class="col">
+            <input type="text" class="form-control" placeholder="Nombre" aria-label="">
+          </div>
+          <div class="col">
+            <input type="text" class="form-control" placeholder="Apellido" aria-label="">
+          </div>
+          <div class="row mt-3">
+            <textarea class="form-control" placeholder="Sobre qué quieres hablar?" id="floatingTextarea2" style="height: 100px"></textarea>
+          </div>
+          <p class="text-secondary">Recuerda incluir un título para tu charla</p>
+        </div>
+        <div class="d-grid gap-2 mb-5">
+          <button type="submit" class="btn btn-success">Enviar</button>
+        </div>
+      </form>
+    </div>
+  </main>
+
+  <footer>
+    <div class="container-fluid text-center justify-content-md-center bg-secondary pt-4 pb-3">
+      <div class="row">
+        <div class="col">
+          <p><a class="text-decoration-none text-white" href="">Preguntas frecuentes</a></p>
+        </div>
+        <div class="col">
+          <p><a class="text-decoration-none text-white" href="">Contáctenos</a></p>
+        </div>
+        <div class="col">
+          <p><a class="text-decoration-none text-white" href="">Prensa</a></p>
+        </div>
+        <div class="col">
+          <p><a class="text-decoration-none text-white" href="">Conferencia</a></p>
+        </div>
+        <div class="col">
+          <p><a class="text-decoration-none text-white" href="">Términos y condiciones</a></p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>
